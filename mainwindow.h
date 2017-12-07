@@ -17,6 +17,8 @@ public:
 
 private:
     Ui::MainWindow *ui;
+private slots:
+    void calculate_grade();
 };
 
 #endif // MAINWINDOW_H
